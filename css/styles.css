@@ -1,0 +1,28 @@
+/** 
+   Style du site d'hebergement Booki
+*/
+
+body{
+    margin: 0;
+    background: gainsboro;
+}
+.main-hebergements{
+    border: 1px dotted red;
+}
+.main-activites{
+    border: 1px solid yellow;
+}
+.section-hebergement-img{
+    width: 50px;
+}
+
+
+.search-button{
+    background: blue;
+    color: white;
+    border: 0px;
+}
+
+.input-search{
+    border: 0px;
+}
