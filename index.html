@@ -8,83 +8,57 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="header-logo">
             <img src="./img/logo/Booki.png" alt="image du logo">
         </div>
-        <nav class="herder-nav0">
-            <a href="#">Hébergements</a>
-            <a href="#">Activités</a>
+        <nav class="herder-nav">
+            <a class="hebergement" href="#">Hébergements</a>
+            <a class="activite" href="#">Activités</a>
         </nav>
-        <P>Trouvez votre hébergement pour des vacances de reve <br>
-          En plein centre vi ou en ine nature
+    </header>
+
+        <h1> <strong> Trouvez votre hébergement pour des vacances de rêve </strong></h1>
+          En plein centre ville ou en pleine nature
         </P>
         <div class="hedear-search">
             <form action="#">
-                <i></i>
-                <input class="input-search" name="rechercher"  type="text"><button class="search-button">Rechercher</button>
-
+               <div>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <input class="input-search" name="rechercher"  type="text">
+                    <button class="search-button">Rechercher</button>
+               </div>
             </form>
 
         </div>
         <nav class="header-nav">
             Filtres
-            <p>Economique</p>
-            <p>Familial</p>
-            <p>Romantique</p> 
+            <p><i class="fa fa-money info" aria-hidden="true"></i>Economique</p>
+            <p><i class="fa fa-child info" aria-hidden="true"></i>Familial</p>
+            <p><i class="fa fa-heart info" aria-hidden="true"></i></i>Romantique</p>
             <p>Animaux autorisés</p>
         </nav>
-    </header>
+
     <main class="main">
+        <p><i class="fa fa-info info" aria-hidden="true"></i> Plus de <em>500</em> logements sont disponibles dans cette ville</p>
        <section class="main-hebergements">
         <div class="section-hebergement">
-           <h2>Hébergements à Marseille</h2>
            <div class="section-hebergement-img">
-            <img src="./img/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" width="200" height="400">
-            <p>
-                <h4>Auberge La Cannebiere</h4>
-                Nuit à partir de 25E
-            </p>
            </div>
            <div class="section-hebergement-img">
-            <img src="./img/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
-            <p>
-                <h4>Hotel du port</h4>
-                Nuit à partir de 52E
-            </p>
            </div>
            <div class="section-hebergement-img">
-            <img src="./img/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
-            <p>
-                <h4>Hotel Les mouettes</h4>
-                Nuit à partir de 76E
-            </p>
            </div>
            <div class="section-hebergement-img">
-            <img src="./img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
-            <p>
-                <h4>Hotel de la mer</h4>
-                Nuit à partir de 46E
-            </p>
            </div>
            <div class="section-hebergement-img">
-            <img src="./img/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
-            <p>
-                <h4>Auberge Le Panier</h4>
-                Nuit à partir de 23E
-            </p>
            </div>
            <div class="section-hebergement-img">
-            <img src="./img/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
-            <p>
-                <h4>Hotel chez Amina</h4>
-                Nuit à partir de 96E
-            </p>
            </div>
-           <a href="#">Afficher plus</a> 
         </div>
         <div class="section-populaire">
             <h2>Les plus populaires</h2>
+            <span><i class="fa fa-star" aria-hidden="true"></i></span>
         </div>
        </section>
        <section class="main-activites">
@@ -97,7 +71,7 @@
         </div>
        </section>
     </main>
-    <footer>
+    <footer class="footer">
        <div class="footer-apropos">
         Fonctionnement du site <br>
         Conditions générales de vente <br>

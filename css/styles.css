@@ -3,26 +3,86 @@
 */
 
 body{
-    margin: 0;
-    background: gainsboro;
+    margin: 20px;
+    background: #FFFFFF;
 }
-.main-hebergements{
-    border: 1px dotted red;
+.header{
+    display: flex;
 }
-.main-activites{
-    border: 1px solid yellow;
+.header-nav{
+    display: flex;
 }
-.section-hebergement-img{
-    width: 50px;
+.herder-nav .hebergement{
+    color: #0065FC;
 }
-
-
-.search-button{
-    background: blue;
-    color: white;
-    border: 0px;
+.header-nav p{
+    margin: 10px;
+    border:2px solid #F2F2F2;
+    border-radius: 20px;
+    padding:10px ;
+    font-weight: bold;
 }
-
 .input-search{
-    border: 0px;
+    margin: 0;
+}
+.search-button{
+    color: #FFFFFF;
+    font-weight: bold;
+    background: #0065FC;
+    padding: 10px;
+    border: 0;
+    border-radius: 0px 10px 10px 0px ;
+    margin: 0;
+}
+
+.info{
+    color: #0065FC;
+    background: #DEEBFF;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    border:2px solid #F2F2F2;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.main-hebergements{
+    border: 5px solid #DDDDAA;
+    display: flex;
+}
+.section-hebergement{
+    border: 3px solid aqua;
+    background: #F2F2F2;
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+
+}
+
+.section-populaire{
+    border: 3px solid aqua;
+    background: #F2F2F2;
+    width: 25%;
+    height: auto;
+}
+
+.section-hebergement-img{
+    background: #FFFFFF;
+    width: 150px;
+    height: auto;
+    border: 1px solid darkred;
+}
+
+.section-populaire{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    background: #F2F2F2;
+    display: flex;
+    justify-content:space-around ;
+    margin:auto;
 }
