@@ -62,13 +62,6 @@ body{
 
 }
 
-.section-populaire{
-    border: 3px solid aqua;
-    background: #F2F2F2;
-    width: 25%;
-    height: auto;
-}
-
 .section-hebergement-img{
     background: #FFFFFF;
     width: 150px;
@@ -77,8 +70,20 @@ body{
 }
 
 .section-populaire{
+    border: 3px solid aqua;
+    background: #F2F2F2;
+    width: 25%;
+    height: auto;
     display: flex;
     justify-content: space-around;
+}
+.section-populaire p{
+    display: flex;
+    justify-content: space-around;
+}
+section-populaire-title{
+    border: 3px solid yellow;
+    color: #0065FC;
 }
 .footer{
     background: #F2F2F2;
