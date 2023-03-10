@@ -156,9 +156,7 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.section-populaire p{
-   
-}
+
 .section-populaire-title{
     border: 3px solid yellow;
 }
@@ -201,4 +199,42 @@ body{
 }
 .order{
     border: 1px solid yellow;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    border: 5px solid #0dfc19;
+    height: 200px;
+    flex-direction: row;
+    padding: 10px;
+}
+.items{
+    width: 50%;
+    height:auto;
+    background: #4f0bee;
+    color: aliceblue;
+    font-size:50px ;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    flex-shrink: 5;
+}
+.item{
+    background: #faf;
+    height: 50%;
+    margin: 1px;
+    border-radius: 20px;
+  
+}
+
+.a{
+    background: #fc0d0d;
+    height: auto;
+    width: 50%;
+    margin: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
 }
