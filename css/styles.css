@@ -1,7 +1,15 @@
 /** 
    Style du site d'hebergement Booki
 */
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;1,200&display=swap');
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 
+*, *::before, *::after{
+    box-sizing: inherit;
+}
 body{
     margin: 20px;
     background: #FFFFFF;
@@ -34,7 +42,24 @@ body{
     border-radius: 0px 10px 10px 0px ;
     margin: 0;
 }
-
+.img-flex{
+    width: 200px;
+}
+.main-hebergements{
+    justify-content: space-between;
+    display: flex;
+    align-content: center ;
+}
+.section-hebergement{
+    border: 1px solid saddlebrown;
+    justify-content: space-evenly;
+    display: flex;
+}
+.section-hebergement-card{
+    margin:10px 2px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
 .info{
     color: #0065FC;
     background: #DEEBFF;
@@ -45,30 +70,9 @@ body{
     text-align: center;
     padding-top: 5px;
 }
-
-.main-hebergements{
-    border: 5px solid #DDDDAA;
-    display: flex;
+.card-star{
+    color: #0065FC;
 }
-.section-hebergement{
-    border: 3px solid aqua;
-    background: #F2F2F2;
-    width: 75%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
-
-
-}
-
-.section-hebergement-img{
-    background: #FFFFFF;
-    width: 150px;
-    height: auto;
-    border: 1px solid darkred;
-}
-
 .section-populaire{
     border: 3px solid aqua;
     background: #F2F2F2;
@@ -81,7 +85,7 @@ body{
     display: flex;
     justify-content: space-around;
 }
-section-populaire-title{
+.section-populaire-title{
     border: 3px solid yellow;
     color: #0065FC;
 }
