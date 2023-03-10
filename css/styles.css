@@ -10,16 +10,36 @@ html{
 *, *::before, *::after{
     box-sizing: inherit;
 }
+
 body{
     margin: 20px;
     background: #FFFFFF;
 }
 .header{
+    padding: 10px;
     display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
 }
-.header-nav{
-    display: flex;
+.headers-nav{
+   width: 220px;
+   display: flex;
+   justify-content: space-between;
+   border: 1px solid #0065FC;
 }
+
+.headers-nav a{
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.active{
+    color: #0065FC;
+}
+
 .herder-nav .hebergement{
     color: #0065FC;
 }
@@ -31,22 +51,71 @@ body{
     font-weight: bold;
 }
 .input-search{
-    margin: 0;
+    margin-right: 0;
+    height: 35px;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    width: 250px;
+    
 }
-.search-button{
-    color: #FFFFFF;
-    font-weight: bold;
+.search-button{ 
+    height: 35px;
+    margin-left: -6px;
     background: #0065FC;
-    padding: 10px;
-    border: 0;
-    border-radius: 0px 10px 10px 0px ;
-    margin: 0;
+    color: #FFFFFF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0px;
 }
 .img-flex{
-    width: 200px;
+    width: 100%;
+}
+.filter-elements{
+    border: 2px solid #F2F2F2;
+    padding: 10px;
+    border-radius: 20px;
+}
+.hedear-search{
+ padding: 0px;
+}
+.filter-elements i{
+    margin-right: 20px;
+}
+.hedear-search span {
+    height: 200px;
+    border: 5px solid #F2F2F2;
+    width: 500px;
+}
+
+.recherche {
+    margin: -53px 14px 0 0;
+}
+ 
+.recherche input {
+    height: 30px;
+}
+ 
+.recherche button {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 30px;
+    margin-left: -5px;
+    vertical-align: bottom;
+}
+
+
+.filtres{
+    margin-top: 10px;
+    width: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+}
+.filtres .text{
+    padding-top: 20px;
 }
 .main-hebergements{
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     align-content: center ;
 }
@@ -54,18 +123,22 @@ body{
     border: 1px solid saddlebrown;
     justify-content: space-evenly;
     display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    width: 75%;
 }
 .section-hebergement-card{
     margin:10px 2px;
     border: 1px solid #000;
     border-radius: 10px;
+    flex-basis: 30%;
 }
 .info{
     color: #0065FC;
     background: #DEEBFF;
     border-radius:50%;
-    width:20px;
-    height:20px;
+    width:35px;
+    height:35px;
     border:2px solid #F2F2F2;
     text-align: center;
     padding-top: 5px;
@@ -79,19 +152,53 @@ body{
     width: 25%;
     height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .section-populaire p{
-    display: flex;
-    justify-content: space-around;
+   
 }
 .section-populaire-title{
     border: 3px solid yellow;
-    color: #0065FC;
+}
+.section-populaire-title i{
+    margin-left: 100px;
 }
 .footer{
     background: #F2F2F2;
     display: flex;
     justify-content:space-around ;
     margin:auto;
+    height: 150px;
+    padding-top:5px;
+}
+
+.activite-contain{
+    border: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.section-activite{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #0065FC ;
+    width: 50%;
+}
+.activites{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
+.element{
+    flex: 1;
+}
+.autre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.order{
+    border: 1px solid yellow;
 }

@@ -12,32 +12,28 @@
         <div class="header-logo">
             <img src="./img/logo/Booki.png" alt="image du logo">
         </div>
-        <nav class="herder-nav">
-            <a class="hebergement" href="#">Hébergements</a>
+        <nav class="headers-nav">
+            <a class="hebergement active" href="#">Hébergements</a>
             <a class="activite" href="#">Activités</a>
         </nav>
     </header>
 
         <h1> <strong> Trouvez votre hébergement pour des vacances de rêve </strong></h1>
-          En plein centre ville ou en pleine nature
+               En plein centre ville ou en pleine nature
         </P>
-        <div class="hedear-search">
-            <form action="#">
-               <div>
-                   <i class="fas fa-map-marker-alt"></i>
-                    <input class="input-search" name="rechercher"  type="text">
-                    <button class="search-button">Rechercher</button>
-               </div>
-            </form>
 
+        <div class="hedear-search">
+                <span><i class="fas fa-map-marker-alt"></i></span>
+                <input class="input-search" name="rechercher"  type="text">
+                <button class="search-button">Rechercher</button>
         </div>
-        <nav class="header-nav">
-            Filtres
-            <p><i class="fas fa-money-bill-wave info"></i></i>Economique</p>
-            <p><i class="fas fa-child info" aria-hidden="true"></i>Familial</p>
-            <p><i class="fas fa-heart info" aria-hidden="true"></i></i>Romantique</p>
-            <p><i class="fas fa-dog info"></i>Animaux autorisés</p>
-        </nav>
+        <div class="filtres">
+            <p class="text"> <strong>Filtres</strong></p>
+            <p class="filter-elements"><i class="fas fa-money-bill-wave info"></i></i>Economique</p>
+            <p class="filter-elements"><i class="fas fa-child info" aria-hidden="true"></i>Familial</p>
+            <p class="filter-elements"><i class="fas fa-heart info" aria-hidden="true"></i></i>Romantique</p>
+            <p class="filter-elements"><i class="fas fa-dog info"></i>Animaux autorisés</p>
+        </div>
 
     <main class="main">
         <i class="fas fa-info info"></i> Plus de <em>500</em> logements sont disponibles dans cette ville</p>
@@ -118,35 +114,67 @@
                 </div>
                 <div class="section-populaire">
                     <p>
-                        <h2 class="section-populaire-title">Les plus populaires</h2>
-                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                        <h2 class="section-populaire-title">Les plus populaires <i class="fa fa-star" aria-hidden="true"></i></h2>
                     </p>
-                    <div class="section-populaire-img"></div>
-                    <div class="section-populaire-img"></div>
-                    <div class="section-populaire-img"></div>
+                    <div class="section-hebergement-card">
+                        <img class="img-flex" src="./img/hebergements/1_xlarge/1.jpg" alt="auberge la cannebière">
+                        <h2 class="card-title"> Auberge La Cannebière</h2>
+                        <p class="card-price"> Nuit à partir de 25 € </p>
+                        <span class="card-star">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="section-hebergement-card">
+                        <img class="img-flex" src="./img/hebergements/1_xlarge/1.jpg" alt="auberge la cannebière">
+                        <h2 class="card-title"> Auberge La Cannebière</h2>
+                        <p class="card-price"> Nuit à partir de 25 € </p>
+                       
+                    </div>
                 </div>
         </section>
         <section class="main-activites">
             <h2>Activités à Marseille</h2>
-            <div class="section-activite">
-                
+            <div class="activite-contain">
+                <div class="section-activite">
+                    <div class="activites  element">
+                    </div>
+                    <div class="activites">
+                    </div>
+                    <div class="activites">
+                    </div>
+                </div>
+                <div class="section-activite">
+                    <div class="activites element">
+                    </div>
+                    <div class="activites autre">
+                        <div class="order">
+                        </div>
+                        <div class="order">
+                    </div>
+                    </div>
+                </div>
             </div>
-            <div class="section-activite">
-                
-            </div>
+            
         </section>
     </main>
     <footer class="footer">
        <div class="footer-apropos">
+        <h3><strong>A propos</strong></h3>
         Fonctionnement du site <br>
         Conditions générales de vente <br>
         Données et confidentialité <br>
        </div>
        <div class="footer-hébergements">
+        <h3><strong>Nos hébergements</strong></h3>
         Charte qualité <br>
         Soumettre votre hotel <br>
        </div>
        <div class="footer-assistance">
+        <h3><strong>Assistance</strong></h3>
         Centre d'aide <br>
         Nous contacter <br>
        </div>
