@@ -20,21 +20,38 @@
     <main class="main">
 
         <h1> <strong> Trouvez votre hébergement pour des vacances de rêve </strong></h1>
-               En plein centre ville ou en pleine nature
-
+        <p> En plein centre ville ou en pleine nature</p>
         <div class="hedear-search">
                 <span><i class="fas fa-map-marker-alt"></i></span>
-                <input class="input-search" name="rechercher"  type="text">
-                <button class="search-button">Rechercher</button>
+                <form action="" method="post" class="search">
+                    <input class="input-search" name="rechercher"  type="text" placeholder="Marseille, France">
+                    <button class="search-button">Rechercher</button>
+                </form>
         </div>
         <div class="filtres">
-            <p class="text"> <strong>Filtres</strong></p>
-            <div class="filter-elements"><i class="fas fa-money-bill-wave info"></i>Economique</div>
-            <p class="filter-elements"><i class="fas fa-child info" aria-hidden="true"></i>Familial</p>
-            <p class="filter-elements"><i class="fas fa-heart info" aria-hidden="true"></i>Romantique</p>
-            <p class="filter-elements"><i class="fas fa-dog info"></i>Animaux autorisés</p>
-        </div>
-        <div class="info">
+           <div class="filtre-title">
+                <span></span>
+                <div class="filtre"><strong>Filtres</strong></div>
+           </div>
+           <div class="filter-economique">
+                <span><i class="fas fa-money-bill-wave info"></i></span> 
+                <div class="economique">Economique</div>    
+          </div>
+          <div class="filter-familial">
+                <span><i class="fas fa-child info" aria-hidden="true"></i></span> 
+                <div class="economique">Familial</div>    
+           </div>
+           <div class="filter-romantique">
+                <span><i class="fas fa-child info" aria-hidden="true"></i></span> 
+                <div class="economique">Romantique</div>    
+           </div>
+           <div class="filter-animaux">
+                 <span><i class="fas fa-child info" aria-hidden="true"></i></span> 
+                 <div class="economique">Animaux autorisés</div>    
+           </div>
+         </div>
+
+        <div class="infos">
            <div class="info-icon"> <i class="fas fa-info info"></i></div>
            <div class="info-title">Plus de <em>500</em> logements sont disponibles dans cette ville</div> 
         </div>
@@ -137,16 +154,17 @@
                     </div>
                 </div>
         </section>
+       <h2>Activités a Marseille</h2>
        <section class="main-activite">
            <div class="left-section">
                 <div class="left-section-items">
                     <img src="./img/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="" class="flex-img"> 
                 </div>
                 <div class="right-section-items">
-                    <div class="container-img">
+                    <div class="container-img haut">
                         <img src="./img/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="" class="flex-img">    
                     </div>
-                    <div class="container-img">
+                    <div class="container-img bas">
                         <img src="./img/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="" class="flex-img">     
                     </div>
                 </div>
@@ -156,10 +174,10 @@
                 <img src="./img/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="" class="flex-img"> 
             </div>
             <div class="right-section-items">
-                <div class="container-img">
+                <div class="container-img haut">
                     <img src="./img/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="" class="flex-img">     
                 </div>
-                <div class="container-img">
+                <div class="container-img bas">
                     <img src="./img/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="" class="flex-img"> 
                 </div>
             </div>
@@ -168,21 +186,27 @@
     </main>
     <footer class="footer">
        <div class="footer-apropos">
-        <h3><strong>A propos</strong></h3>
-        Fonctionnement du site <br>
-        Conditions générales de vente <br>
-        Données et confidentialité <br>
+            <h3><strong>A propos</strong></h3>
+            <div class="text-apropos">
+                Fonctionnement du site <br>
+                Conditions générales de vente <br>
+                Données et confidentialité <br>
+            </div> 
        </div>
        <div class="footer-hébergements">
-        <h3><strong>Nos hébergements</strong></h3>
-        Charte qualité <br>
-        Soumettre votre hotel <br>
+            <h3><strong>Nos hébergements</strong></h3>
+            <div class="text-hebergements">
+                Charte qualité <br>
+                Soumettre votre hotel 
+            </div> 
        </div>
        <div class="footer-assistance">
-        <h3><strong>Assistance</strong></h3>
-        Centre d'aide <br>
-        Nous contacter <br>
-       </div>
+            <h3><strong>Assistance</strong></h3>
+            <div class="text-assistance">
+                Centre d'aide <br>
+                Nous contacter 
+           </div>
+        </div> 
     </footer>
 </body>
 </html>
