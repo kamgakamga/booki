@@ -135,17 +135,19 @@ body{
     padding-top: 15px;
     border: 1px solid #000;
     width: 50%;
-
- 
-
+}
+.infos{
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
-
-
-
-
-
-
+.info-icon{
+    display: inline;
+    margin-right: 10px;
+}
+.info-title{
+    display: inline;
+}
 .main-hebergements{
     justify-content: space-around;
     display: flex;
