@@ -1,6 +1,9 @@
 /** 
    Style du site d'hebergement Booki
 */
+/* ======================IMPORTATION DE LA POLICE DU SITE========================= */
+
+/* =================== STYLE GENERAL ============================================ */
   @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;1,200&display=swap');
 html{
     box-sizing: border-box;
@@ -12,47 +15,68 @@ html{
 }
 
 body{
-    margin: 20px;
+    margin: 20px 30px;
     background: #bbf7cf;
+    font-family: 'Raleway', sans-serif;
 }
+
+
+
+/* ================================== HEADER ========================================== */
+
+
+
 .header{
-    padding: 10px;
+
     display: flex;
     justify-content: space-between;
-    border: 1px solid #000;
+}
+
+.header-logo img{
+    height: 50px;
+    width: 60px;
 }
 .headers-nav{
-   width: 220px;
+   width: 250px;
    display: flex;
+   align-items: center;
    justify-content: space-between;
-   border: 1px solid #0065FC;
 }
 
 .headers-nav a{
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-top: 30px;
     font-weight: bold;
     text-decoration: none;
 }
 
-.active{
-    color: #0065FC;
+
+
+
+/* ============================== SECTION INFO =========================== */
+
+.main{
+    margin-top: 20px;
+}
+.info-title{
+  font-size: 20px;  
 }
 
-.herder-nav .hebergement{
-    color: #0065FC;
+.hedear-search{
+    display: flex;
 }
-.header-nav p{
-    margin: 10px;
-    border:2px solid #F2F2F2;
-    border-radius: 20px;
-    padding:10px ;
-    font-weight: bold;
+
+.localisation-icon{
+    background-color: #F2F2F2;
+    width: 25px;
+    padding-left: 5px;
+    padding-top: 7px;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
 }
+
 .input-search{
     margin-right: 0;
     height: 35px;
+    border-left:1px solid #F2F2F2; ;
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
     width: 250px;
