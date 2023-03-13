@@ -141,7 +141,7 @@ body{
     padding: 0px;
     width: 200px;
     justify-content: space-between;
-    border: 6px solid #0065FC;
+    border: 1px solid #0065FC;
     border-radius: 20px;
 }
 .filtre{
@@ -149,16 +149,15 @@ body{
 }
 .common-filter span{
     height: 100%;
-    border: 5px solid #000;
-    
-    margin-left: -10px;
+    border: 1px solid #000;
+    margin-left: -2px;
     border-radius: 50%;
 
 }
 .common-filter .economique{
     padding-top: 15px;
-    border: 1px solid #000;
-    width: 50%;
+    width: 75%;
+    font-size: 12px;
 }
 .infos{
     margin-bottom: 20px;
