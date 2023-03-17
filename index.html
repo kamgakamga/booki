@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--afin que les Media Queries soient prises en compte correctement sur tous les dispositifs -->
     <meta name="Booki" content="Site permettant au usagers de trouver des hébergements et des activites dans la ville de leur choix.">
     <title>site de reservation</title>
     <link rel="stylesheet" href="./css/styles.css">
@@ -23,17 +24,19 @@
     <main class="main">
 
         <section id="info">
-                <h1 class="info-title"> Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p> En plein centre ville ou en pleine nature</p>
+                <div class="info-card">
+                    <h1 class="info-title"> Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p> En plein centre ville ou en pleine nature</p>
+                </div>
                 <div class="hedear-search">
                         <div class="localisation-icon"><i class="fas fa-map-marker-alt"></i></div>
                         <form action="" method="post" class="search">
-                            <input class="input-search" name="rechercher"  type="text" placeholder="Marseille, France">
-                            <button class="search-button">Rechercher</button>
+                            <input class="input-search" name="rechercher"  type="text" placeholder="Marseille, France" value="Marseille, France">
+                            <button class="search-button"><i class="fas fa-search">Rechercher</i></button>
                         </form>
                 </div>
                 <div class="filtres">
-                <div class="filtre-title common-filter">
+                <div class="filtre-title">
                         <div class="filtre">Filtres</div>
                 </div>
                 <div class="filter-economique common-filter">
@@ -50,7 +53,7 @@
                 </div>
                 <div class="filter-animaux common-filter">
                         <span><i class="fas fa-child" aria-hidden="true"></i></span> 
-                        <div class="common">Animaux autorisés</div>    
+                        <div class="common animal">Animaux autorisés</div>    
                 </div>
                 </div>
 
