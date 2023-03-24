@@ -6,17 +6,21 @@
     <meta name="Booki" content="Site permettant au usagers de trouver des hébergements et des activites dans la ville de leur choix.">
     <title>site de reservation</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
-    <header class="header">
+    <header class="entete">
+        <div class="barre-hergement"></div>
+        <div class="barre-activite"></div>
+      <div class="header">
         <div class="header-logo">
-            <img srcset="./img/logo/Booki.png 191w, ./img/logo/Booki@3x.png 285w" sizes="10vw" src="./img/logo/Booki@3x.png" alt="image du logo">
+            <img srcset="./img/logo/Booki.png 191w, ./img/logo/Booki@3x.png 285w" sizes="8vw" src="./img/logo/Booki@3x.png" alt="image du logo">
         </div>
         <nav class="headers-nav">
-            <a class="hebergement" href="#">Hébergements</a>
-            <a class="activite" href="#">Activités</a>
+            <a class="nav-hebergement activite" href="#">Hébergements</a>
+            <a class="nav-activite barre-activite" href="#">Activités</a>
         </nav>
+      </div>
     </header>
     <main class="main">
         <section id="info">
@@ -27,7 +31,7 @@
                 <div class="hedear-search">
                         <div class="localisation-icon"><i class="fas fa-map-marker-alt"></i></div>
                         <form action="#" method="post" class="search">
-                            <input class="input-search" id="recher" name="rechercher"  type="text" placeholder="Marseille, France" value="Marseille, France">
+                            <input class="input-search" id="recher" name="rechercher"  type="text" placeholder="Marseille, France">
                           <button class="search-button"><i class="fas fa-search"></i><span>Rechercher</span> </button>    
                         </form>
                 </div>
@@ -63,12 +67,12 @@
                <h3 class="hebergement-title"> Hébergements à Marseille </h3>
                 <div class="section-hebergement">
                     <div class="section-hebergement-card">
-                        <img class="img-flex"
-                        srcset="./img/hebergements/1_xlarge/1.jpg 5993w,
-                                ./img/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg 2997w,
-                                ./img/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg 1499w,
-                                ./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg 750w"       
-                        src="./img/hebergements/1_xlarge/1.jpg" alt="auberge la cannebière">
+                        <picture>
+                            <source media="(max-width: 2997px)" srcset="./img/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+                            <source media="(max-width: 1499px)" srcset="./img/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+                            <source media="(max-width: 750px)" srcset="./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+                            <img class="img-flex" src="./img/hebergements/1_xlarge/1.jpg" alt="photo du Parc Longchamp">
+                        </picture>
                         <div class="data">
                             <h2 class="card-title"> Auberge La Cannebière</h2>
                             <p class="card-price"> Nuit à partir de 25<span class="symbole-euro">€</span> </p>
@@ -82,12 +86,12 @@
                         </div>
                     </div>
                     <div class="section-hebergement-card">
-                        <img class="img-flex" 
-                          srcset="./img/hebergements/1_xlarge/2.jpg 4572w, 
-                                  ./img/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg 2736w,
-                                  ./img/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1368w,
-                                  ./img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg 640w"
-                           src="./img/hebergements/1_xlarge/2.jpg" alt="auberge la cannebière">
+                        <picture>
+                            <source media="(max-width: 2736px)" srcset="./img/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+                            <source media="(max-width: 1368px)" srcset="./img/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+                            <source media="(max-width: 640px)" srcset="./img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+                            <img class="img-flex" src="./img/hebergements/1_xlarge/2.jpg" alt="photo du Parc Longchamp">
+                        </picture>
                         <div class="data">
                             <h2 class="card-title"> Hôtel du port</h2>
                             <p class="card-price"> Nuit à partir de 52<span class="symbole-euro">€</span></p>
@@ -101,12 +105,12 @@
                         </div>
                     </div>
                     <div class="section-hebergement-card">
-                        <img class="img-flex" 
-                        srcset="./img/hebergements/1_xlarge/3.jpg
-                                ./img/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg 3000px,
-                                ./img/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg 1500w,
-                                ./img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg 750w"
-                        src="./img/hebergements/1_xlarge/3.jpg" alt="auberge la cannebière">
+                        <picture>
+                            <source media="(max-width: 3000px)" srcset="./img/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg">
+                            <source media="(max-width: 1500px)" srcset="./img/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg">
+                            <source media="(max-width: 750px)" srcset="./img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg">
+                            <img  class="img-flex" src="./img/hebergements/1_xlarge/3.jpg" alt="photo du Parc Longchamp">
+                        </picture>
                         <div class="data">
                             <h2 class="card-title"> Hôtel Les mouettes</h2>
                             <p class="card-price"> Nuit à partir de 76<span class="symbole-euro">€</span> </p>
@@ -120,12 +124,12 @@
                         </div>
                     </div>
                     <div class="section-hebergement-card">
-                        <img class="img-flex mer" 
-                             srcset="./img/hebergements/1_xlarge/4.jpg 4000px,
-                             ./img/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg 2000px,
-                             ./img/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg 1000px,
-                             ./img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg 500px"
-                        src="./img/hebergements/1_xlarge/4.jpg" alt="auberge la cannebière">
+                        <picture>
+                            <source media="(max-width: 2000px)" srcset="./img/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+                            <source media="(max-width: 1000px)" srcset="./img/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+                            <source media="(max-width: 500px)" srcset="./img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+                            <img class="img-flex mer"  src="./img/hebergements/1_xlarge/4.jpg" alt="photo du Parc Longchamp">
+                        </picture>
                         <div class="data">
                             <h2 class="card-title"> Hôtel de la mer</h2>
                             <p class="card-price"> Nuit à partir de 46<span class="symbole-euro">€</span> </p>
@@ -139,12 +143,12 @@
                         </div>
                     </div>
                     <div class="section-hebergement-card">
-                        <img class="img-flex" 
-                           srcset="./img/hebergements/1_xlarge/5.jpg
-                           ./img/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 2606w,
-                           ./img/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 1303w,
-                           ./img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 652w"
-                           src="./img/hebergements/1_xlarge/5.jpg" alt="auberge la cannebière">
+                        <picture>
+                            <source media="(max-width: 2606px)" srcset="./img/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
+                            <source media="(max-width: 1303px)" srcset="./img/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
+                            <source media="(max-width: 652px)" srcset="./img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
+                            <img class="img-flex"  src="./img/hebergements/1_xlarge/5.jpg" alt="photo du Parc Longchamp">
+                        </picture>
                         <div class="data">
                             <h2 class="card-title"> Auberge Le Panier</h2>
                             <p class="card-price"> Nuit à partir de 25<span class="symbole-euro">€</span> </p>
@@ -158,12 +162,12 @@
                         </div>
                     </div>
                     <div class="section-hebergement-card">
-                        <img class="img-flex amina"
-                             srcset="./img/hebergements/1_xlarge/6.jpg 3888w,
-                             ./img/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 1944w,
-                             ./img/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 972w,
-                             ./img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 486w"
-                            src="./img/hebergements/1_xlarge/6.jpg" alt="auberge la cannebière">
+                        <picture>
+                            <source media="(max-width: 1944px)" srcset="./img/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+                            <source media="(max-width: 972px)" srcset="./img/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+                            <source media="(max-width: 486px)" srcset="./img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+                            <img class="img-flex amina"  src="./img/hebergements/1_xlarge/6.jpg" alt="photo du Parc Longchamp">
+                        </picture>
                         <div class="data">
                             <h2 class="card-title"> Hôtel chez Amina</h2>
                             <p class="card-price"> Nuit à partir de 96<span class="symbole-euro">€</span> </p>
@@ -284,41 +288,39 @@
             </div>
          </section> -->
        
+         <h2 class="big-title-activite">Activités a Marseille</h2>
          <section class="activitess">
             <div class="port activite-border-radus">
                 <div class="port-img-container">
-                    <img class="flex-img" 
-                    srcset="./img/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 2808w,
-                    ./img/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 1404w,
-                    ./img/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 5616w, 
-                    ./img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 702w"
-                    sizes="302px"
-                    src="./img/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="auberge la cannebière">
+                    <picture>
+                        <source media="(max-width: 2808px)" srcset="./img/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                        <source media="(max-width: 1404px)" srcset="./img/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                        <source media="(max-width: 702px)" srcset="./img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                        <img class="flex-img" src="./img/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du Parc Longchamp">
+                    </picture>
                 </div>
                 <h3 class="port-footer">Vieux Port</h3>
             </div>
             <div class="fort-pomegue-iles">
                 <div class="fort activite-border-radus">
                     <div class="fort-img-container">
-                        <img class="flex-img" 
-                        srcset="./img/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg 2843w,
-                        ./img/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg 1422w,
-                        ./img/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg 711w,
-                        ./img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg 356w,"
-                        sizes="302px"
-                        src="./img/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="auberge la cannebière">
+                        <picture>
+                            <source media="(max-width: 1422px)" srcset="./img/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                            <source media="(max-width: 711px)" srcset="./img/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                            <source media="(max-width: 350px)" srcset="./img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                            <img class="flex-img" src="./img/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du Parc Longchamp">
+                        </picture>
                     </div>
                     <h3 class="fort-footer">Fort de Pomègues</h3>
                 </div>
                 <div class="iles activite-border-radus">
                     <div class="iles-img-container">
-                        <img class="flex-img" 
-                        srcset="./img/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 5184w,
-                          ./img/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 2592w,
-                          ./img/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 1296w,
-                          ./img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 648w"
-                          sizes="302px"
-                        src="./img/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="auberge la cannebière">
+                        <picture>
+                            <source media="(max-width: 2592px)" srcset="./img/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                            <source media="(max-width: 1296px)" srcset="./img/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                            <source media="(max-width: 648px)" srcset="./img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                            <img class="flex-img" src="./img/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo du Parc Longchamp">
+                        </picture>
                     </div>
                     <h3 class="iles-footer">Iles du Frioul</h3>
                 </div>
