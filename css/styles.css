@@ -1131,7 +1131,7 @@
         flex-basis: 30%;
         /* background: #e30a0a; */
         height: 180px;
-        box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
+        box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
     }
     .section-hebergement-card img{
         border-top-left-radius: 10px;
@@ -1236,7 +1236,7 @@
     }
     
     .section-popularite-card .data{
-        box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
+        box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
         display: inline-block;
         width: 60%;
         height: 100%;
@@ -1303,7 +1303,7 @@
     }
     
     .left-section-items{
-        box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
+        box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
         height: 100%;
         width: 45%;
         border-radius: 30px;
@@ -1318,7 +1318,7 @@
         margin: 0;
     }
     .right-section-items{
-        box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
+        box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
         border-radius: 30px;
         height: 100%;
         margin-left:15px ;
@@ -1372,7 +1372,7 @@
 
 .activite-border-radus{
     border-radius: 20px;
-    box-shadow: 3px 3px 13px -2px rgba(251, 248, 248, 0.76);
+    box-shadow: 3px 3px 13px -2px rgba(251, 248, 248, 0.40);
     overflow: hidden;
 }
 
@@ -1387,7 +1387,7 @@
     /* overflow: scroll; */
 }
 .port{
-    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
     /* height: 445px;    */
     height: 345px;
     /* width: 22%; */
@@ -1429,7 +1429,7 @@
 
 
 .fort{
-    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
     /* background-color: #000; */
     /* margin-bottom: 44px; */
     margin-bottom: 44px;
@@ -1457,7 +1457,7 @@
 
 
 .iles{
-    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
     /* height: 165px; */
      height: 135px; 
     /* border: 3px solid #aba5a8; */
@@ -1493,7 +1493,7 @@
 
 
 .dame{
-    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
     margin-bottom: 41px;
     height: 145px;
     /* height: 195px; */
@@ -1520,7 +1520,7 @@
 
 
 .parc{
-    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
     height: 159px;
     /* height: 209px; */
     /* border: 3px solid #aba5a8; */
