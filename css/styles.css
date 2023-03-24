@@ -173,10 +173,12 @@
         border: 0;
     }
     .filtre{
+        /* background-color: #269999;
+        border: 3px solid #bdc4fa; */
         margin-top: 15px;
         margin-right: 10px;
         align-content: center;
-        text-align: end;
+        text-align: start;
     }
     .common-filter span{
         height: 100%;
@@ -194,7 +196,7 @@
     .common{
         padding-top: 15px;
         width: 73%;
-        font-size: 14px;
+        font-size: s14px;
         font-weight: bold;
         text-align: start;
         /* border: 2px solid #f21111; */
@@ -207,17 +209,31 @@
     margin-right: 0;
     } */
     .infos{
-        margin-bottom: 30px;
-        margin-top: 30px;
+        display: flex;
+        margin:30px 0;
+        /* background-color: #bdc4fa;
+        border: 3px solid #f21111; */
     }
     .info-icon{
-        display: inline;
+        color: #0065FC;
+        border: 2px solid #DEEBFF;
+        width:40px ;
+        /* background-color: #665e5e; */
         margin-right: 10px;
+        padding-top: 8px;
+        text-align: center;
+        height: 40px;
+        border-radius: 50%;
+         /* clip-path:ellipse(50% 50%);  */
     }
     .info-title{
+        padding-top: 8px;
+        height: 40px;
         /* background-color: #0065FC; */
+        /* background: #28dcca; */
         font-size: 20px;
-        margin: 0;
+        display: inline-block;
+        text-align: center;
     }
     .info-card p{
         margin-top: 10px;
@@ -234,6 +250,7 @@
         display: flex;
         align-content: space-between ;
         height: 500Px;
+        clear: both;
 
     }
     
@@ -517,7 +534,7 @@
 .activitess{
     margin-top: 20px;
     padding: 0px;
-    background: #28dcca;
+    /* background: #28dcca; */
     /* border: 3px solid #eb1111; */
     display: flex;
     /* flex-wrap: wrap; */
@@ -525,6 +542,7 @@
     /* overflow: scroll; */
 }
 .port{
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
     /* height: 445px;    */
     height: 345px;
     /* width: 22%; */
@@ -547,7 +565,7 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 0;
-    background: #269999;
+    /* background: #269999; */
     height: 46px;
     /* border: 3px solid #e1f5e6; */
 }
@@ -566,6 +584,7 @@
 
 
 .fort{
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
     /* background-color: #000; */
     /* margin-bottom: 44px; */
     margin-bottom: 44px;
@@ -585,7 +604,7 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 0;
-    background: #54cfcf;
+    /* background: #54cfcf; */
     height: 46px;
     /* border: 3px solid #e1f5e6; */
 } 
@@ -593,6 +612,7 @@
 
 
 .iles{
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
     /* height: 165px; */
      height: 135px; 
     /* border: 3px solid #aba5a8; */
@@ -620,7 +640,7 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 0;
-    background: #269999;
+    /* background: #269999; */
     height: 46px;
     /* border: 3px solid #e1f5e6; */
 }
@@ -628,6 +648,7 @@
 
 
 .dame{
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
     margin-bottom: 41px;
     height: 145px;
     /* height: 195px; */
@@ -646,7 +667,7 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 0;
-    background: #269999;
+    /* background: #269999; */
     height: 46px;
     /* border: 3px solid #e1f5e6; */
 }
@@ -654,6 +675,7 @@
 
 
 .parc{
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
     height: 159px;
     /* height: 209px; */
     /* border: 3px solid #aba5a8; */
@@ -669,7 +691,7 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 0;
-    background: #269999;
+    /* background: #269999; */
     height: 46px;
     /* border: 3px solid #e1f5e6; */
 }
