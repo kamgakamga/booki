@@ -10,15 +10,14 @@
 </head>
 <body>
     <header class="entete">
-        <div class="barre-hergement"></div>
-        <div class="barre-activite"></div>
+       
       <div class="header">
         <div class="header-logo">
             <img srcset="./img/logo/Booki.png 191w, ./img/logo/Booki@3x.png 285w" sizes="8vw" src="./img/logo/Booki@3x.png" alt="image du logo">
         </div>
         <nav class="headers-nav">
             <a class="nav-hebergement activite" href="#">Hébergements</a>
-            <a class="nav-activite barre-activite" href="#">Activités</a>
+            <a class="nav-activite" href="#">Activités</a>
         </nav>
       </div>
     </header>
@@ -32,29 +31,29 @@
                         <div class="localisation-icon"><i class="fas fa-map-marker-alt"></i></div>
                         <form action="#" method="post" class="search">
                             <input class="input-search" id="recher" name="rechercher"  type="text" placeholder="Marseille, France">
-                          <button class="search-button"><i class="fas fa-search"></i><span>Rechercher</span> </button>    
+                          <button class="search-button"><i class="fas fa-search"></i><span>Rechercher</span></button>    
                         </form>
                 </div>
                 <div class="filtres">
-                <div class="filtre-title">
-                        <div class="filtre">Filtres</div>
-                </div>
-                <div class="filter-economique common-filter">
-                        <span><i class="fas fa-money-bill-wave"></i></span> 
-                        <div class="common">Economique</div>    
-                </div>
-                <div class="filter-familial common-filter">
-                        <span><i class="fas fa-child" aria-hidden="true"></i></span> 
-                        <div class="common">Familial</div>    
-                </div>
-                <div class="filter-romantique common-filter">
-                        <span><i class="fa fa-heart" aria-hidden="true"></i></span> 
-                        <div class="common">Romantique</div>    
-                </div>
-                <div class="filter-animaux common-filter">
-                        <span><i class="fas fa-dog"></i></span> 
-                        <div class="common animal">Animaux autorisés</div>    
-                </div>
+                    <div class="filtre-title">
+                            <div class="filtre">Filtres</div>
+                    </div>
+                    <div class="filter-economique eco common-filter">
+                            <span class="eco"><i class="fas fa-money-bill-wave"></i></span> 
+                            <div class="common eco">Economique</div>    
+                    </div>
+                    <div class="filter-familial common-filter">
+                            <span><i class="fas fa-child" aria-hidden="true"></i></span> 
+                            <div class="common">Familial</div>    
+                    </div>
+                    <div class="filter-romantique common-filter">
+                            <span><i class="fa fa-heart" aria-hidden="true"></i></span> 
+                            <div class="common">Romantique</div>    
+                    </div>
+                    <div class="filter-animaux common-filter">
+                            <span><i class="fas fa-dog"></i></span> 
+                            <div class="common animal">Animaux autorisés</div>    
+                    </div>
                 </div>
 
             <div class="infos">
@@ -63,8 +62,8 @@
             </div>
         </section>
        <section class="main-hebergements">
-        <div class="hebergement-contain">   
-               <h3 class="hebergement-title"> Hébergements à Marseille </h3>
+        <div class="hebergement-contain">  
+                <h3 class="hebergement-title"> Hébergements à Marseille </h3>
                 <div class="section-hebergement">
                     <div class="section-hebergement-card">
                         <picture>
@@ -183,8 +182,8 @@
                 </div>
                 <a class="plus-img" href="#"> Afficher plus </a>
             </div>
-            <div class="popularite-container">
-                <div class="popularite-title-container">
+        <div class="popularite-container">
+               <div class="popularite-title-container">
                         <h2 class="section-populaire-title">Les plus populaires</h2>
                         <span class="popularite-title-icon"><i class="fa fa-star" aria-hidden="true"></i></span> 
                 </div>
@@ -232,65 +231,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- <section>
-            <h2>Activités a Marseille</h2>
-            <div class="main-activite">
-                <div class="left-section">
-                        <div class="left-section-items">
-                            <div>
-                                <div>
-                                    <img class="flex-img" src="./img/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="auberge la cannebière">
-                               </div>
-                               <h2 class="card-footer"> Vieux Port</h2>
-                            </div>
-                        </div>
-                        <div class="right-section-items"> 
-                            <div class="container-img">
-                                <div class="container-pomegue">
-                                    <img class="flex-img pomegue" src="./img/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="auberge la cannebière">
-                                    <h2 class="card-footer"> Fort de Pomègues</h2>
-                                </div>
-                            </div>
-                            <div class="container-img">
-                                <div class="container-pomegue">
-                                    <img class="flex-img frioul" src="./img/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="auberge la cannebière">
-                                    <h2 class="card-footer"> iles du Frioul</h2>
-                                </div>
-                            </div> 
-                        </div>
-                </div>
-                <div class="right-section">
-                        <div class="left-section-items">
-                            <div>
-                                <div>
-                                    <img src="./img/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="" class="flex-img">    
-                                </div>
-                                <h2 class="card-footer"> Parc National des Calanques</h2>
-                            </div>
-                    </div>
-                    <div class="right-section-items"> 
-                        <div class="container-img">
-                            <div class="container-pomegue">
-                                <img class="flex-img pomegue" src="./img/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="auberge la cannebière">
-                                <h2 class="card-footer">Notre-Dame-de-la-Garde</h2>
-                            </div>
-                        </div>
-                        <div class="container-img">
-                            <div class="container-pomegue">
-                                <img class="flex-img frioul" src="./img/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="auberge la cannebière">
-                                <h2 class="card-footer"> Parc Longchamp</h2>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-         </section> -->
-       
-         <h2 class="big-title-activite">Activités a Marseille</h2>
-         <section class="activitess">
-            <div class="port activite-border-radus">
+            </div> 
+       </section>
+        <h2 class="big-title-activite">Activités a Marseille</h2>
+        <section class="activitess">
+            <div class="port commun-phone activite-border-radus">
                 <div class="port-img-container">
                     <picture>
                         <source media="(max-width: 2808px)" srcset="./img/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
@@ -302,7 +247,7 @@
                 <h3 class="port-footer">Vieux Port</h3>
             </div>
             <div class="fort-pomegue-iles">
-                <div class="fort activite-border-radus">
+                <div class="fort activite-border-radus commun-phone">
                     <div class="fort-img-container">
                         <picture>
                             <source media="(max-width: 1422px)" srcset="./img/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
@@ -313,7 +258,7 @@
                     </div>
                     <h3 class="fort-footer">Fort de Pomègues</h3>
                 </div>
-                <div class="iles activite-border-radus">
+                <div class="iles activite-border-radus commun-phone">
                     <div class="iles-img-container">
                         <picture>
                             <source media="(max-width: 2592px)" srcset="./img/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
@@ -325,7 +270,7 @@
                     <h3 class="iles-footer">Iles du Frioul</h3>
                 </div>
             </div>
-            <div class="port iles-frioul activite-border-radus">
+            <div class="port iles-frioul activite-border-radus commun-phone">
                 <div class="port-img-container">
                     <img 
                     srcset="./img/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 4846w,
@@ -338,7 +283,7 @@
                 <h3 class="port-footer">Parc National des Calanques</h3>
             </div>
             <div class="notre-dame-parc-long">
-                <div class="dame activite-border-radus">
+                <div class="dame activite-border-radus commun-phone">
                     <div class="dame-img-container">
                         <img class="flex-img"
                         srcset="./img/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg 3062w,
@@ -350,7 +295,7 @@
                     </div>
                     <h3 class="dame-footer">Notre-Dame-de-la-Garde</h3>
                 </div>
-                <div class="parc activite-border-radus">
+                <div class="parc activite-border-radus commun-phone">
                     <div class="parc-img-container">
                         <img class="flex-img" 
                            srcset="./img/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg 4032w,
