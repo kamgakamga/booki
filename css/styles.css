@@ -199,13 +199,7 @@
         text-align: start;
         /* border: 2px solid #f21111; */
     }
-    /* .common-filter .romantique{
-        width: 60% !important;
-        text-align: start !important;
-    } */
-    /* .filter-animaux{
-    margin-right: 0;
-    } */
+   
     .common-filter .animal{
         width: 200px;
         padding-left: 10px;
@@ -221,16 +215,27 @@
 .filter-romantique{
     width:160px ;
 }
-
-
-
-
     .infos{
         display: flex;
         margin:20px 0;
         /* background-color: #bdc4fa;
         border: 3px solid #f21111; */
     }
+
+    .common-filter:hover{
+        cursor: pointer;
+        background-color: #0065FC;;
+        color:#FFFFFF;
+        border-radius: 15px;
+    }
+    .common-filter:hover i{
+        cursor: pointer;
+        background-color: #0065FC;
+        color:#FFFFFF;
+        border-radius: 15px;
+    }
+
+
     .info-icon{
         color: #0065FC;
         border: 2px solid #DEEBFF;
@@ -252,11 +257,6 @@
         display: inline-block;
         text-align: center;
     }
-    /* .info-card p{
-        margin-top: 10px;
-        margin-bottom: 15px;
-       
-    } */
     
     /* =========================== Hebergement======================== */
     
@@ -1131,12 +1131,6 @@
     /* height: 46px; */
     /* border: 3px solid #e1f5e6; */
 }
-.eco:hover{
-    cursor: pointer;
-    background-color: hsl(240, 2%, 10%);
-    color:#FFFFFF;
-    border-radius: 15px;
-}
  .fort{
     box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
     /* background-color: #000; */
@@ -1269,6 +1263,9 @@
    .notre-dame-parc-long{
     width: 48%;
     margin: 0px 0px 0px 0px;
+   }
+   .tab-actif{
+    margin: 40px 0px 0px 0px;
    }
 }
 
