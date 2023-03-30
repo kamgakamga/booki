@@ -14,10 +14,13 @@
         box-sizing: inherit;
     }
     body{
-         background: #FFF; 
+         /* background: #FFF;  */
         /* margin: 20px 30px; */
          margin: 0;
         font-family: 'Raleway', sans-serif;
+    }
+    .header, .main{
+        margin: 0px 30px 0px 30px;
     }
      img {
         object-fit: cover;
@@ -63,6 +66,7 @@
         padding: 30px 20px 30px 20px;
     }
      .nav-activite{
+        color: #1c1d20;
         padding: 30px 20px 30px 20px;
      }
      .nav-activite:hover{
@@ -138,7 +142,7 @@
         font-weight: bold;
         margin: 25px 25px 25px 0;
         width: 65%;
-        border: 3px solid #000;
+        /* border: 3px solid #000; */
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -155,15 +159,15 @@
         justify-content: space-between;
         border: 3px solid #F2F2F2;
         border-radius: 20px;
-        background: #4feb11;
+        /* background: #4feb11; */
     }
     .filtre-title{
         width: 75px;
         border: 0;
     }
     .filtre{
-        background-color: #269999; 
-        border: 3px solid #bdc4fa; 
+        /* background-color: #269999;  */
+        /* border: 3px solid #bdc4fa;  */
         margin-top: 10px;
         margin-right: 10px;
         /* margin-left: -10px; */
@@ -182,7 +186,7 @@
         border-radius: 50%;
         width: 25%;
         color: #0065FC;
-        background: #DEEBFF;
+        /* background: #DEEBFF; */
     
     }
     .common{
@@ -258,24 +262,24 @@
     
     /* ============================== Marseille ============================ */
      .main-hebergements{
-        border: 2px solid #b832e0;
+        /* border: 2px solid #b832e0; */
         /* justify-content: space-between; */
         display: flex;
         /* align-content: space-between ; */
         /* height: 500Px; */
         flex-wrap: wrap;
-        background-color: #000;
+        /* background-color: #000; */
         flex-direction:row ;
     } 
     
     .hebergement-contain{
         /* border: 2px solid #28dcca; */
-        background: #c72222;
+        /* background: #c72222; */
         /* padding: 10px 0 0 10px; */
         border-radius: 15px;
         margin-right: 20px;
         /* height: 500px; */
-        width: 71%;
+        width: 70%;
         /* background-color: #000; */
     }
     .hebergement-title{
@@ -285,32 +289,40 @@
     } 
     .data{
         background: #FFFFFF;
-        padding-top: 5px;
-        padding-left: 5px;
+        /* padding-top: 5px;
+        padding-left: 5px; */
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
     }
-    .data h2{
+    .datas{
+        height: 100px;
+        background: #FFFFFF;
+        /* padding-top: 5px;
+        padding-left: 5px; */
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .data h2,.datas h2{
         margin:0 5px ;
         font-size:14px;
         padding-top:5px;
         padding-left:5px;
     }
-    .data p{
+    .data p ,.datas p{
         margin:0 5px ;
         font-size: 14px;
         padding-top: 5px;
         padding-left: 5px;
     }
     
-    .data span{
+    .data span,.datas span{
         /* margin:0 0 0 5px ; */
         font-weight: bold;
         font-size: 14px;
         padding: 5px 0 10px 10px;
         color: #0065FC;
     }
-   .data .symbole-euro{
+   .data .symbole-euro, .datas .symbole-euro{
         margin-left: -10px;
         color: #020407;
     }
@@ -361,7 +373,7 @@
     }
     .popularite-container{
         /* border:2px solid #06551a; */
-        background: #17e010;
+        /* background: #17e010; */
         width: 27%;
         height: auto;
         padding: 0 6px;
@@ -414,21 +426,22 @@
             /* background-color: #000;
             border: 2px solid #0065FC; */
             height: 30%;
+            margin: 10px 0 10px 0;
     }
     .section-popularite-card img{
         width: 40%;
-        height: 100%;
+        /* height: 100%; */
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
     }
     
-    .section-popularite-card .data{
+    .section-popularite-card .datas{
         box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
         display: inline-block;
         width: 60%;
-        height: 100%;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
+        /* height: 100%; */
+        /* border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px; */
     
     }
     .section-popularite-card .data p{
@@ -551,7 +564,8 @@
     border-radius: 20px;
     box-shadow: 3px 3px 13px -2px rgba(251, 248, 248, 0.76);
     overflow: hidden;
-}
+    /* background-color: #4feb11*/
+} 
 
 .activitess{
     margin-top: 20px;
@@ -559,27 +573,20 @@
     /* background: #28dcca; */
     /* border: 3px solid #eb1111; */
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-between;
     /* overflow: scroll; */
 }
 .port{
     box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
     /* height: 445px;    */
-    height: 345px;
+    /* height: 345px; */
     /* width: 22%; */
-    width: 50%;
-    margin: 20px 30px 20px 0px;
+    width: 20%;
+    margin: 0px 0px 0px 0px;
     /* background: #000; */
     /* overflow: scroll; */
     /* border: 3px solid #11eb1f; */
-}
-.port-img-container{
-    /* background: #596665; */
-    /* border: 3px solid #111512; */
-    /* height: 389px; */
-    height: 299px;
-    /* width: 302px; */
 }
 .port-footer{
     padding: 13px 0 0px 10px;
@@ -591,14 +598,19 @@
     height: 46px;
     /* border: 3px solid #e1f5e6; */
 }
-
+.port-img-container{
+     height: 87%; 
+    width: 100%;
+    /* background-color: #17e010; */
+ }
 
 .fort-pomegue-iles{
     /* height: 445px;    */
-    height: 345px;
+    /* height: 345px; */
     /* width: 22%; */
-    width: 24%;
-    margin: 20px 30px 20px 0px;
+    width: 22%;
+    margin: 0px 0px 0px 0px;
+    /* background-color: #0065FC; */
     /* background: #000; */
     /* overflow: scroll; */
     /* border: 3px solid #11eb1f; */
@@ -611,23 +623,17 @@
     /* margin-bottom: 44px; */
     margin-bottom: 44px;
     /* height: 236px; */
-    height: 165px; 
+    /* height: 165px;  */
     /* border: 3px solid #ff58ac; */
 }
-
-.fort-img-container{
-    /* background: #596665; */
-    /* border: 3px solid #111512; */
-    height: 119px;
-}
  .fort-footer{
-    padding: 13px 0 0px 10px;
+    padding: 10px 0 0px 10px;
     font-size: 14px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 0;
     /* background: #54cfcf; */
-    height: 46px;
+    height: auto;
     /* border: 3px solid #e1f5e6; */
 } 
 
@@ -639,18 +645,6 @@
      height: 135px; 
     /* border: 3px solid #aba5a8; */
 }
-
-.iles-frioul{
-    /* height: 445px;    */
-    height: 345px;
-    /* width: 22%; */
-    width: 50%;
-    margin: 20px 30px 20px 0px;
-    /* background: #000; */
-    /* overflow: scroll; */
-    /* border: 3px solid #11eb1f; */
-}
-
 .iles-img-container{
     /* background: #596665; */
     /* border: 3px solid #111512; */
@@ -667,8 +661,6 @@
     /* border: 3px solid #e1f5e6; */
 }
 
-
-
 .dame{
     box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
     margin-bottom: 41px;
@@ -684,13 +676,13 @@
     /* height: 139px; */
 }
 .dame-footer{
-    padding: 15px 0 0px 10px;
+    padding: 10px 0 0px 10px;
     font-size: 14px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 0;
     /* background: #269999; */
-    height: 46px;
+    height: auto;
     /* border: 3px solid #e1f5e6; */
 }
 
@@ -722,17 +714,16 @@
     /* height: 445px;    */
     /* height: 345px; */
     /* width: 22%; */
-    width: 24%;
-    margin: 20px 0px 20px 0px;
+    /* background-color: #0065FC; */
+    width: 22%;
+    margin: 0px 0px 0px 0px;
     /* background: #000; */
     /* overflow: scroll; */
     /* border: 3px solid #11eb1f; */
 }
-    .header, .main{
-        margin: 0px 30px 0px 30px;
-    }
 
     .footer{
+        margin-top: 30px;
         background: #F2F2F2;
         height: auto;
         width: 100%;
@@ -1034,36 +1025,6 @@
     .section-populaire-title i{
         margin-left: 100px;
     }
-    .section-popularite-card{
-            display: flex;
-            /* background-color: #000;
-            border: 2px solid #0065FC; */
-            height: 30%;
-    }
-    .section-popularite-card img{
-        width: 40%;
-        height: 100%;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-    }
-    
-    .section-popularite-card .data{
-        box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
-        display: inline-block;
-        width: 60%;
-        height: 100%;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-    
-    }
-    .section-popularite-card .data p{
-        font-size: 12px;
-    }
-    .section-popularite-card .data h2{
-        font-size: 14px;
-        margin: 0px;
-    }
-    
     /* ===============================================FOOTER========================================== */
     
     
@@ -1171,41 +1132,20 @@
     .right-section-items:first-child{
         height: 10%;
     } 
-
-
-
-
+rt
 .big-title-activite{
     font-size: 18px;
     margin-top: 40px;
     margin-bottom: 10px;
 }
-
-
-.activite-border-radus{
-    border-radius: 20px;
-    box-shadow: 3px 3px 13px -2px rgba(251, 248, 248, 0.40);
-    overflow: hidden;
-}
-.port{
-    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
-    /* height: 445px;    */
-    height: 345px;
-    /* width: 22%; */
-    width: 302px;
-    margin: 20px 30px 20px 0px;
-    /* background: #000; */
-    /* overflow: scroll; */
-    /* border: 3px solid #11eb1f; */
-}
 .port-footer{
-    padding: 13px 0 0px 10px;
+    padding: 10px 0 0px 10px;
     font-size: 14px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 0;
     /* background: #269999; */
-    height: 46px;
+    /* height: 46px; */
     /* border: 3px solid #e1f5e6; */
 }
 .eco:hover{
@@ -1229,18 +1169,6 @@
     /* border: 3px solid #111512; */
     height: 119px;
 }
- .fort-footer{
-    padding: 13px 0 0px 10px;
-    font-size: 14px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin: 0;
-    /* background: #54cfcf; */
-    height: 46px;
-    /* border: 3px solid #e1f5e6; */
-} 
-
-
 
 .iles{
     box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
@@ -1251,10 +1179,10 @@
 
 .iles-frioul{
     /* height: 445px;    */
-    height: 345px;
-    /* width: 22%; */
-    width: 302px;
-    margin: 20px 30px 20px 0px;
+    /* height: 345px; */
+    width: 22%;
+    /* width: 302px; */
+    /* margin: 20px 30px 20px 0px; */
     /* background: #000; */
     /* overflow: scroll; */
     /* border: 3px solid #11eb1f; */
@@ -1292,16 +1220,16 @@
     height: 99px;
     /* height: 139px; */
 }
-.dame-footer{
+/* .dame-footer{
     padding: 15px 0 0px 10px;
     font-size: 14px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 0;
-    /* background: #269999; */
+    /* background: #269999; 
     height: 46px;
-    /* border: 3px solid #e1f5e6; */
-}
+    /* border: 3px solid #e1f5e6; 
+} */
 .parc{
     box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
     height: 159px;
@@ -1324,21 +1252,7 @@
     /* border: 3px solid #e1f5e6; */
 }
 
-.notre-dame-parc-long{
-    /* height: 445px;    */
-    height: 345px;
-    /* width: 22%; */
-    width: 302px;
-    margin: 20px 0px 20px 0px;
-    /* background: #000; */
-    /* overflow: scroll; */
-    /* border: 3px solid #11eb1f; */
-}
-
 @media screen and (max-width: 768px) {
-    body{
-        background-color: #e2fb9e;
-    }
     .header{
         flex-direction: column;
         align-items: center;
@@ -1369,7 +1283,7 @@
     }
     .nav-hebergement{
         /* background-color: #f21111;  */
-        text-align: center;
+         text-align: center;
          color: #0065FC;
          border-top:none;
          width: 50%;
@@ -1377,6 +1291,7 @@
          padding: 20px 20px 15px 20px;
      }
      .nav-activite{
+        color: #020509;
         text-align: center;
         width: 50%;
         border-bottom: 3px solid #DEEBFF;
@@ -1422,14 +1337,14 @@
 
     .filtres{
         width: 100%;
-        background-color:#C72222;
+        /* background-color:#C72222; */
         justify-content: start;
         margin: 20px 0 0 0;
     }
     .filtre-title{
         font-size: 18px;
         width: 100%;
-        background-color: #b832e0;
+        /* background-color: #b832e0; */
     }
 
 
@@ -1444,14 +1359,14 @@
         justify-content: space-between;
         border: 3px solid #F2F2F2;
         border-radius: 20px;
-        background: #4feb11;
+        /* background: #4feb11; */
     }
 
     .filtre{
-        background-color: #269999; 
-        border: 3px solid #bdc4fa; 
+        /* background-color: #269999;  */
+        /* border: 3px solid #bdc4fa;  */
         font-size: 16px;
-        width: 100;
+        width: 100px;
     }
 
 
@@ -1480,6 +1395,24 @@
          margin-bottom: 15px;
          flex-direction: column-reverse;
      }
+     .plus-img{
+        padding-left: 5px;
+    }
+    .hebergement-title{
+        padding-left:5px;
+     }
+     .popularite-title-container{
+        padding: 0 2px 0 3px;
+    }
+    .section-popularite-card .datas{
+        box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.76);
+        display: inline-block;
+        width: 60%;
+        height:auto;
+        /* border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+     */
+    }
      .popularite-container{
         margin-bottom: 10px;
         width: 100%;
@@ -1490,35 +1423,37 @@
      }
      .activitess{
         width: 100%;
-        background-color: #0a65ef;
+        /* background-color: #0a65ef; */
         flex-wrap: wrap;
         justify-content: space-around;
      }
 .port{
+    height: 180px;
     width: 100%;
 }
      .commun-phone{
         /* background-color: #000; */
         width: 100%;
-        height: 200px;
+        /* height: 200px; */
       
      }
      .fort-pomegue-iles,.notre-dame-parc-long{
         width: 100%;
-        height: 200px;
+        /* height: 200px; */
      }
      .iles-frioul,.iles,.fort-pomegue-iles,.port{
         margin: 5px 0;
      }
      .port-img-container{
-        height: 150px;
+        /* height: 150px; */
         width: 100%;
+        height: 75%; 
+        /* background-color: #17e010; */
      }
-
      .footer{
-        margin-top: 250px;
+        margin-top:30px ;
      }
-
+    
      .footer-apropos{
         width: 100%;
         /* margin-right:30% ;*/
@@ -1537,14 +1472,5 @@
         width: 100%;
         margin-left:30px ;
        /* border: 5px solid #ee0860;  */
-    }
-    .plus-img{
-        padding-left: 5px;
-    }
-    .hebergement-title{
-        padding-left:5px;
-     }
-     .popularite-title-container{
-        padding: 0 2px 0 3px;
     }
   }
