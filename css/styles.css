@@ -582,7 +582,7 @@
     /* height: 445px;    */
     /* height: 345px; */
     /* width: 22%; */
-    width: 20%;
+    width: 22%;
     margin: 0px 0px 0px 0px;
     /* background: #000; */
     /* overflow: scroll; */
@@ -1057,7 +1057,6 @@
         display: flex;
         height: 300px;
         width: 50%;
-    
     }
     
     .left-section-items{
@@ -1117,7 +1116,6 @@
     .right-section-items:first-child{
         height: 10%;
     } 
-rt
 .big-title-activite{
     font-size: 18px;
     margin-top: 40px;
@@ -1188,9 +1186,6 @@ rt
     height: 46px;
     /* border: 3px solid #e1f5e6; */
 }
-
-
-
 .dame{
     box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
     margin-bottom: 41px;
@@ -1205,16 +1200,7 @@ rt
     height: 99px;
     /* height: 139px; */
 }
-/* .dame-footer{
-    padding: 15px 0 0px 10px;
-    font-size: 14px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin: 0;
-    /* background: #269999; 
-    height: 46px;
-    /* border: 3px solid #e1f5e6; 
-} */
+
 .parc{
     box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
     height: 159px;
@@ -1236,20 +1222,21 @@ rt
     height: 46px;
     /* border: 3px solid #e1f5e6; */
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
      body{
         background-color: beige;
      }
     .main-hebergements{
         flex-direction: column-reverse;
     }
+   .hebergement-title {
+    padding-left: 15px;
+    }
     .hebergement-contain{
         width: 100%;
     }
     .popularite-container{
-        width: 100%;
-
-       
+        width: 100%; 
     }
     .section-populaire{
         justify-content: space-between;
@@ -1261,8 +1248,28 @@ rt
         margin: 0;
         width: 30%;
         height: 100%;
+        padding: 5px;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        box-shadow: none;
     }
-    
+    .section-popularite-card .datas{
+        box-shadow: none;
+    }
+    .plus-img{
+        padding-left: 10px;
+    }
+    .port{
+        width: 48%;
+    }
+    .fort-pomegue-iles{
+        width: 48%;
+        margin: 0px 0px 0px 0px;
+    }
+   .notre-dame-parc-long{
+    width: 48%;
+    margin: 0px 0px 0px 0px;
+   }
 }
 
 
@@ -1347,8 +1354,6 @@ rt
         font-size: 15px;
         opacity: 1;
     }
-
-
     .filtres{
         width: 100%;
         /* background-color:#C72222; */
@@ -1402,9 +1407,6 @@ rt
          margin-bottom: 15px;
          flex-direction: column-reverse;
      }
-     .plus-img{
-        padding-left: 5px;
-    }
     .hebergement-title{
         padding-left:5px;
      }
@@ -1416,9 +1418,6 @@ rt
         display: inline-block;
         width: 60%;
         height:auto;
-        /* border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-     */
     }
      .popularite-container{
         margin-bottom: 10px;
@@ -1434,50 +1433,38 @@ rt
         flex-wrap: wrap;
         justify-content: space-around;
      }
-.port{
-    height: 180px;
-    width: 100%;
-}
-     .commun-phone{
-        /* background-color: #000; */
+    .port{
+        height: 180px;
         width: 100%;
-        /* height: 200px; */
-      
+    }
+     .commun-phone{
+        width: 100%;
      }
      .fort-pomegue-iles,.notre-dame-parc-long{
         width: 100%;
-        /* height: 200px; */
      }
      .iles-frioul,.iles,.fort-pomegue-iles,.port{
         margin: 5px 0;
      }
      .port-img-container{
-        /* height: 150px; */
         width: 100%;
         height: 75%; 
-        /* background-color: #17e010; */
      }
      .footer{
         margin-top:30px ;
      }
-    
+
      .footer-apropos{
         width: 100%;
-        /* margin-right:30% ;*/
-        /* margin-left: 30px;  */
-        /* border: 5px solid #0065FC; */
-      
     }
+
     .footer-hébergements{
-        /* margin-right:300px ; */
         width: 100%;
         margin-left:30px ;
-        /* border: 5px solid #00fc3b;
-  */
     }
+
     .footer-assistance{
         width: 100%;
         margin-left:30px ;
-       /* border: 5px solid #ee0860;  */
     }
   }
