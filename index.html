@@ -13,7 +13,11 @@
        
       <div class="header">
         <div class="header-logo">
-            <img srcset="./img/logo/Booki.png 191w, ./img/logo/Booki@3x.png 285w" sizes="8vw" src="./img/logo/Booki@3x.png" alt="image du logo">
+            <picture>
+                <source media="(max-width: 285px)" srcset="./img/logo/Booki@3x.png">
+                <source media="(max-width: 191px)" srcset="./img/logo/Booki.png">
+                <img class="" src="./img/logo/Booki@3x.png" alt="image du logo">
+            </picture>
         </div>
         <nav class="headers-nav">
             <a class="nav-hebergement activite" href="#">Hébergements</a>
