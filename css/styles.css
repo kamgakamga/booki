@@ -97,17 +97,6 @@
         display: flex;
         /* background-color: #000102; */
     }
-    
-    /* .localisation-icon{
-        background-color: #F2F2F2;
-        width: 1%;
-        height: 45px;
-        padding-left: 20px;
-        padding-top: 15px;
-        border-top-left-radius:10px ;
-        border-bottom-left-radius: 10px;
-    } */
-    
     .input-search{
         margin-right: 0;
         font-size: 14px;
