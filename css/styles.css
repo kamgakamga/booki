@@ -610,7 +610,7 @@ img {
 } 
 
 .activitess{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -1017,52 +1017,59 @@ img {
         width: 50%;
 }
     
-    .left-section-items{
+.left-section-items{
         box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
         height: 100%;
         width: 45%;
         border-radius: 30px;
         margin-left:15px ;
-    }
+}
     
-    .left-section-items div{
+.left-section-items div{
         height: 100%;
-    }
-    .left-section-items div div{
+}
+
+.left-section-items div div{
         height: 85%;
         margin: 0;
-    }
-    .right-section-items{
+}
+
+.right-section-items{
         box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
         border-radius: 30px;
         height: 100%;
         margin-left:15px ;
         width: 45%;
-    }
+}
     
-    .container-img{
+.container-img{
         height: 50%;
         border-radius: 27px;
-    }
-    .flex-img{
+}
+
+.flex-img{
         width: 100%;
         height: 100%;
         margin: 0;
-    }
-    .pomegue{
+}
+
+.pomegue{
         height: 85%;
-    }
-    .container-pomegue{
+}
+
+.container-pomegue{
         height: 98%;
-    }
-    .container-frioul{
+}
+
+.container-frioul{
         height: 98%;
-    }
-    .frioul{
+}
+
+.frioul{
         height: 85%;
-    }
+}
     
-    .card-footer{
+.card-footer{
         height: 15%;
         margin-top: 0;
         background-color: #FFF;
@@ -1070,46 +1077,39 @@ img {
         font-size: 14px;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
-    }
-    .right-section-items:first-child{
+}
+
+.right-section-items:first-child{
         height: 10%;
-    } 
+}
+
 .big-title-activite{
     font-size: 18px;
     margin-top: 40px;
     margin-bottom: 10px;
 }
+
 .port-footer{
     padding: 10px 0 0px 10px;
     font-size: 14px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 0;
-    /* background: #269999; */
-    /* height: 46px; */
-    /* border: 3px solid #e1f5e6; */
 }
- .fort{
+
+.fort{
     box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
-    /* background-color: #000; */
-    /* margin-bottom: 44px; */
     margin-bottom: 44px;
-    /* height: 236px; */
     height: 165px; 
-    /* border: 3px solid #ff58ac; */
 }
 
 .fort-img-container{
-    /* background: #596665; */
-    /* border: 3px solid #111512; */
     height: 119px;
 }
 
 .iles{
     box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.40);
-    /* height: 165px; */
      height: 135px; 
-    /* border: 3px solid #aba5a8; */
 }
 
 .iles-frioul{
@@ -1160,6 +1160,7 @@ img {
     height: 46px;
     /* border: 3px solid #e1f5e6; */
 }
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
      .img-flex{
         width: 100%;
@@ -1349,8 +1350,6 @@ img {
     }
 
     .filtre{
-        /* background-color: #269999;  */
-        /* border: 3px solid #bdc4fa;  */
         font-size: 16px;
         width: 100px;
     } 
@@ -1360,13 +1359,12 @@ img {
      .hebergement-contain{
        width: 100%;
        background-color: #FFFFFF;
+       padding: 0;
     } 
     .section-hebergement-card{
         width: 100%;
     }
     .section-hebergement{
-        /* background: #f60834;
-         border: 1px solid saddlebrown;  */
          border-radius: 15px;
          justify-content: space-evenly;
          display: flex;
@@ -1379,7 +1377,7 @@ img {
         padding-left:5px;
      }
      .plus-img{
-        padding-left: 5px;
+        padding-left: 3px;
     }
      .popularite-title-container{
         padding: 0 2px 0 3px;
@@ -1396,6 +1394,7 @@ img {
     }
 
      .popularite-container{
+        padding: 0;
         margin-bottom: 10px;
         width: 100%;
         background-color: #FFFFFF;
@@ -1410,6 +1409,12 @@ img {
         flex-wrap: wrap;
         justify-content: space-around;
      }
+
+.activitess .port{
+   margin: 40px 0 40px 0; 
+
+}
+
     .port{
         height: 180px;
         width: 100%;
@@ -1420,16 +1425,22 @@ img {
      .fort-pomegue-iles,.notre-dame-parc-long{
         width: 100%;
      }
-     .iles-frioul,.iles,.fort-pomegue-iles,.port{
+
+.iles-frioul,
+.iles,
+.fort-pomegue-iles,
+.port{
         margin: 5px 0;
-     }
-     .port-img-container{
+}
+
+.port-img-container{
         width: 100%;
         height: 75%; 
-     }
-     .footer{
+}
+
+.footer{
         margin-top:30px ;
-     }
+}
 
      .footer-apropos{
         width: 100%;
